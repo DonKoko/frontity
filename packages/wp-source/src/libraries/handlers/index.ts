@@ -8,8 +8,9 @@ import postTypeArchiveHandler from "./postTypeArchive";
 export const post = postTypeHandler({ endpoints: ["posts"] });
 export const page = postTypeHandler({ endpoints: ["pages"] });
 export const attachment = postTypeHandler({ endpoints: ["media"] });
+export const product = postTypeHandler({ endpoints: ["product"] });
 export const postType = postTypeHandler({
-  endpoints: ["posts", "pages", "media"],
+  endpoints: ["posts", "pages", "media", "product"],
 });
 
 // Taxonomies
